@@ -11,7 +11,7 @@ import java.awt.Graphics2D;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.FontMetrics;
-
+// TEST
 public class Bandeau {
 
 	static class BannerPanel extends JPanel {
