@@ -11,7 +11,7 @@ package bandeau;
  */
 public abstract class Scenario {
     
-    public abstract void lancer();   
+    public abstract void lancer(Bandeau monBandeau);   
     
     
 }

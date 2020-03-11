@@ -14,8 +14,10 @@ public class Scenario1 extends Scenario {
     private final EffetZoom zoom = new EffetZoom();
     private final EffetTourne tourne = new EffetTourne();
 	@Override
-	public void lancer() {
-		// TODO Auto-generated method stub
+	public void lancer(Bandeau monBandeau) {
+            
+            zoom.lancer(monBandeau);
+		
 		
 	}
 
