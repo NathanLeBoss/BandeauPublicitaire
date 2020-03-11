@@ -28,10 +28,10 @@ public class ExempleDUtilisation {
 	monBandeau.setMessage("On va zoomer");
 	monBandeau.sleep(1000);
 	monBandeau.setMessage("Zoom........");
-	for (int i = 5; i < 60 ; i+=5) {
-		monBandeau.setFont(new Font("Dialog", Font.BOLD, 5+i));
-		monBandeau.sleep(100);
-	}
+//	for (int i = 5; i < 60 ; i+=5) {
+//		monBandeau.setFont(new Font("Dialog", Font.BOLD, 5+i));
+//		monBandeau.sleep(100);
+//	}
 	monBandeau.sleep(1000);
 
 	monBandeau.setFont(new Font("Courier new", Font.PLAIN, 15));
