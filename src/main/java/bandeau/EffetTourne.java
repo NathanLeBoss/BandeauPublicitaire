@@ -9,9 +9,14 @@ package bandeau;
  *
  * @author alefev02
  */
-public abstract class Scenario {
-    
-    public abstract void lancer();   
-    
+public class EffetTourne extends Effet {
+
+    @Override
+    public void lancer() {
+        for (int i = 0; i <= 100; i++) {
+		this.setRotation(2*Math.PI*i / 100);
+		this.sleep(100);
+	}
+    }
     
 }

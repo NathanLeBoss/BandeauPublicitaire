@@ -5,6 +5,7 @@ import java.awt.Font;
 
 public class ExempleDUtilisation {
     private final Bandeau monBandeau = new Bandeau();
+    private final Scenario1 a = new Scenario1();
     
     public static void main(String[] args) {
 	    new ExempleDUtilisation().exemple();
@@ -14,6 +15,8 @@ public class ExempleDUtilisation {
         Font font = monBandeau.getFont();
         Color back = monBandeau.getBackground();
         Color fore = monBandeau.getForeground();
+        
+        a.lancer();
 
         monBandeau.setMessage("Hello");
 	monBandeau.sleep(1000);
