@@ -10,6 +10,9 @@ public class EffetPolice extends Effet {
 	 */
 	public void lancer(Bandeau monBandeau) {
 		monBandeau.setFont(new Font("Monospaced", Font.BOLD, 15));
+                monBandeau.sleep(100);
+                monBandeau.setFont(new Font("Monospaced", Font.BOLD, 24));
+                
 	}
 	
 	/**
