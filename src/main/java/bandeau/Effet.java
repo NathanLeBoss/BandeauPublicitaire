@@ -1,7 +1,7 @@
 package bandeau;
 
-public abstract class Effet extends Bandeau {
+public abstract class Effet{
 
-	public abstract void lancer();
+	public abstract void lancer(Bandeau monBandeau);
 	
 }

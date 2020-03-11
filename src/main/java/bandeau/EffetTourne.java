@@ -12,11 +12,12 @@ package bandeau;
 public class EffetTourne extends Effet {
 
     @Override
-    public void lancer() {
-        for (int i = 0; i <= 100; i++) {
-		this.setRotation(2*Math.PI*i / 100);
-		this.sleep(100);
-	}
-    }
+	public void lancer(Bandeau monBandeau) {
+		for (int i = 0; i <= 100; i++) {
+			monBandeau.setRotation(2*Math.PI*i / 100);
+			monBandeau.sleep(100);
+		
+		}
     
+    }
 }
